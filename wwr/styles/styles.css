@@ -186,7 +186,48 @@ h2 {
     opacity: .6;
     transform: scale(1.1);
 }
+#through{
+    margin: 100px;
+    font-family: 'Poppins','DM Sans', 'Open Sans', 'Roboto', sans-serif;
+}
+#through img{ 
+    width: 80%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    border: 10px solid #576ca8
+}
 
+h1{
+    margin-top: 50px;
+    color: rgb(7, 7, 7);
+    text-align: center;
+}
+h3 {
+    font-family: 'Roboto','Poppins','DM Sans','Open Sans', sans-serif;
+}
+h5{
+    margin-top: -50px;
+}
+#through p{
+    font-family: 'Poppins','DM Sans', 'Open Sans', 'Roboto', sans-serif;
+    font-size: .8em;
+    margin-top: 50px;
+}
+img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+.hook{
+    color: white;
+    background-color: #576ca8;
+    text-decoration: none;  
+    font-size: 18px;  
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.hook:hover{
+    color: rgb(45, 0, 66);
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
