@@ -1,11 +1,10 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Open+Sans:ital,wght@1,300&family=Poppins:wght@300&family=Roboto&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
     
-}
-main{
-    margin: 100px;
 }
 #hero-img {
     width: 100%;
@@ -29,9 +28,12 @@ nav a {
     padding: 35px;
 }
 #hero {
-    margin-bottom: -100px;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
+    margin-bottom: -10%;
+}
+.cool{
+    text-align: center;
 }
 #hero-msg{
     grid-column: 2/3;
@@ -46,12 +48,6 @@ nav a {
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
-.love{
-    margin-top: 150px;
-    margin-bottom: -200px;
-    text-align: center;
-    color: #2a468d;
-}
 #hero-msg h4 {
     color: white;
     font-family: 'Roboto', 'DM Sans', 'Open Sans', 'Poppins', sans-serif ;
@@ -62,43 +58,16 @@ nav a {
 main section{
     text-align: center;
 } 
-.l{
-    margin-bottom: 25px;
-}
-.text h3{
-    margin-top: 20%; 
-    font-family: 'Roboto','Poppins','DM Sans', 'Open Sans', sans-serif ;;
-}
-.text{
-    text-align: center;
-    margin: 100px;
-    font-family: 'Poppins','DM Sans', 'Open Sans', 'Roboto', sans-serif ;
-    font-size: .8em;
-    padding-bottom: 15px;
-    color: rgb(0, 0, 0)
-}
-.text a{
-    color: #fdfdff;
-    background-color: #576ca8;
-    text-decoration: none;  
-    font-size: 18px;  
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px; 
-}
-.text a:hover{
-    color: rgb(45, 0, 66);
-}
 main section img {
     box-sizing: border-box;
 }
 
 #background {
+    margin: -100px;
     height: 725px;
     background-color: #b8d0e7;
     grid-column: 1/11;
     grid-row: 4/9;
-    margin: -100px;
 }
 body {
     background-color: #fdfdfd; 
@@ -107,12 +76,11 @@ body {
     padding: 0;
 }
 .home-grid {
+    margin: 80px;
     display: grid;
     grid-template-columns: 10fr;
-    margin-top: 1;
 }
 header {
-    margin-bottom: 100;
     background-color:#576ca8;    display: grid;
     grid-template-columns: 150px auto;
 }
@@ -135,6 +103,25 @@ nav {
 .book:hover, .join:hover {
     color: rgb(45, 0, 66);
 }
+.joy{
+    color: #fdfdff;
+    background-color: #576ca8;
+    text-decoration: none;  
+    font-size: 18px;  
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.joy:hover{
+    color: rgb(45, 0, 66);
+}
+.koy{
+    margin-top: -200000px;
+    margin: 100px;
+    text-align: center;
+    font-size: .8em;
+    font-family: 'Poppins','Roboto', 'DM Sans', 'Open Sans', sans-serif ;
+}
 .msg{
     background-color: #c8d6e2;
     line-height: 1.5em;
@@ -142,6 +129,58 @@ nav {
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+}
+.koy h3{
+    font-size: xx-large;
+    margin-top: -15%;
+    font-family:  'Roboto','Poppins','DM Sans', 'Open Sans', sans-serif ;
+}
+.koy a{
+    color: #fdfdff;
+    background-color: #576ca8;
+    text-decoration: none;  
+    font-size: 18px;  
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.do{
+    margin-top: -200px;
+    margin-bottom: 20%;
+}
+.formm{
+text-align: center;
+}
+.koye{
+    text-align: center;
+    margin-top: 200px;
+}
+.first h1{
+    font-family: 'Roboto','Poppins','DM Sans', 'Open Sans', sans-serif ;
+    font-size: xx-large;
+    margin-top: 200px;
+    margin-bottom: -200px ;
+    text-align: center;
+    color: black;
+}
+.lus {
+    margin-bottom: -200px;
+    font-family: 'Roboto','Poppins','DM Sans', 'Open Sans', sans-serif ;
+    font-size: large;
+}
+.lus p{
+    margin: 80px;
+}
+.key{
+    font-size: larger;
+    margin-bottom: 30px;
+    font-family: 'Roboto','Poppins','DM Sans', 'Open Sans', sans-serif ;
+}
+.joy{
+    margin-bottom: -1000px;
+}
+.koye p{
+    margin: 90px;
 }
 .msg p {
     font-family: 'Poppins','DM Sans', 'Open Sans', 'Roboto', sans-serif ;
@@ -205,11 +244,11 @@ h2 {
 .rivers-card {
     grid-column: 2/4;
     grid-row: 2/3;
-    gap: 100px;
 }
 .camping-card{
     grid-column: 5/7;
     grid-row: 2/3;
+   
 }
 .rapids-card{
     grid-column: 8/10;
@@ -224,4 +263,167 @@ h2 {
     opacity: .6;
     transform: scale(1.1);
 }
+#through{
+    margin: 100px;
+    font-family: 'Poppins','DM Sans', 'Open Sans', 'Roboto', sans-serif;
+}
+#through img{ 
+    width: 80%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    border: 10px solid #576ca8
+}
 
+h1{
+    margin-top: 50px;
+    color: rgb(7, 7, 7);
+    text-align: center;
+}
+h3 {
+    font-family: 'Roboto','Poppins','DM Sans','Open Sans', sans-serif;
+}
+h5{
+    margin-top: -50px;
+}
+#through p{
+    font-family: 'Poppins','DM Sans', 'Open Sans', 'Roboto', sans-serif;
+    font-size: .8em;
+    margin-top: 50px;
+}
+img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+.hook{
+    color: white;
+    background-color: #576ca8;
+    text-decoration: none;  
+    font-size: 18px;  
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.hook:hover{
+    color: rgb(45, 0, 66);
+}
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+#lockup{
+    margin-top: 50px;
+}
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+.button {
+  /* Align buttons with the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: 0.5em;
+}
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
