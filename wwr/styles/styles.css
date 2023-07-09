@@ -95,8 +95,29 @@ nav {
     margin-top: 50px;
     border-radius: 5px;
 }
+.boo{
+    color: #fdfdff;
+    background-color: #576ca8;
+    text-decoration: none;  
+    font-size: 18px;  
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px; 
+}
+.lovv{
+    text-align: center;
+    margin-top: 30px;
+}
+.boo:hover{
+    color: rgb(45, 0, 66);
+}
 .book:hover, .join:hover {
     color: rgb(45, 0, 66);
+}
+.dok{
+    width: 450px; 
+    height: 300px;   
+    float: left;
 }
 .msg{
     background-color: #c8d6e2;
@@ -199,6 +220,7 @@ h2 {
 
 h1{
     margin-top: 50px;
+    margin-bottom: -0px;
     color: rgb(7, 7, 7);
     text-align: center;
 }
@@ -206,6 +228,9 @@ h3 {
     font-family: 'Roboto','Poppins','DM Sans','Open Sans', sans-serif;
 }
 h5{
+    margin-top: -50px;
+}
+#through h3{
     margin-top: -50px;
 }
 #through p{
